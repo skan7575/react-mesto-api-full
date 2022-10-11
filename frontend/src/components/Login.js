@@ -21,7 +21,6 @@ const Login = ({onLogin}) => {
                     if (!data) {
                         return console.log('ошибка авторизации')
                     }
-                    console.log('data.token='+data.token)
                     if (data.token) {
                         onLogin(data.token, formData.email)
                         setFormData({
