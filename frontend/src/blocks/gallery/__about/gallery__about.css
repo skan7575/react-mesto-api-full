@@ -1,0 +1,13 @@
+.gallery__about {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 282px;
+  border-radius: 0px 0px 10px 10px;
+  padding-left: 21px;
+  padding-right: 20px;
+  min-height: 79px;
+}
